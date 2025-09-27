@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int side = sc.nextInt();
+        int no = sc.nextInt();
+        int d  =(int)Math.sqrt(no);
+        int a = d*side;
+        side=a*a;
+        System.out.println(side);
+        
+    }
+}
